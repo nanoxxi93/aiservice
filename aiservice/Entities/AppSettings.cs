@@ -42,6 +42,9 @@ namespace AIService.Entities
     {
         public string App { get; set; }
         public string Api { get; set; }
+        public string STTAudioFilePath { get; set; }
+        public string STTAudioFileUrl { get; set; }
+        public string AudioToWavUrl { get; set; }
     }
 
     public class LogSettings
